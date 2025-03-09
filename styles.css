@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    background-image: url('.vscode/Mongolian-Brief-History-1140x530-e1542925717207.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.95); 
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+td {
+    vertical-align: top;
+    padding: 20px;
+}
+
+.content {
+    width: 100%;
+    background: #fff;
+    border-right: 5px solid #ddd;
+    text-align: left;
+    margin-top: 20px;
+    vertical-align: top;
+}
+
+.ihbiy {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-left: 5px solid #ddd;
+    text-align: left;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-right: 520px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 0;
+    font-size: 22px;
+}
+
+h3 {
+    color: #555;
+    margin-top: 0;
+    font-size: 18px;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left:40px;
+    border-radius: 45%;
+    text-align: center;
+    border: 3px solid #ddd;
+}
+
+
+.skills {
+    width: 100%;
+    border: 1px solid #ddd;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.skills td {
+    padding: 10px;
+    text-align: left;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        padding: 15px;
+    }
+
+    .content, .ihbiy {
+        width: 100%;
+        border: none;
+    }
+
+    td {
+        padding: 15px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .content, .ihbiy {
+        width: 100%;
+        border: none;
+    }
+
+    td {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
