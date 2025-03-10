@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 20px;
     background-color: #f4f4f4;
-    background-image: url('.vscode/Mongolian-Brief-History-1140x530-e1542925717207.jpg');
+    background-image: url('Mongolian-Brief-History-1140x530-e1542925717207.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -11,7 +11,8 @@ body {
     width: 90%;
     max-width: 1200px;
     margin: auto;
-    background: rgba(255, 255, 255, 0.95); 
+    background: linear-gradient(to bottom, #ff801e, #fff698);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -74,7 +75,7 @@ img {
     height: auto;
     display: block;
     margin-left:40px;
-    border-radius: 45%;
+    border-radius: 50%;
     text-align: center;
     border: 3px solid #ddd;
 }
