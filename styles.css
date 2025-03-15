@@ -1,29 +1,31 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 20px;
     background-color: #f4f4f4;
     background-image: url('Mongolian-Brief-History-1140x530-e1542925717207.jpg');
     background-size: cover;
     background-attachment: fixed;
+    
 }
+
 .container {
     width: 90%;
     max-width: 1200px;
     margin: auto;
-    background: linear-gradient(to bottom, #ff801e, #fff698);
+    background: linear-gradient(#ff801e, hsla(263, 47%, 35%, 0.9)), url('Mongolian-Brief-History-1140x530-e1542925717207.jpg');
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 30px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    border-radius: 10px;
     text-align: left;
+    background: rgba(255, 255, 255, 0.9);
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
 }
-
 
 td {
     vertical-align: top;
@@ -32,7 +34,7 @@ td {
 
 .content {
     width: 100%;
-    background: #fff;
+    background: #e08f51;
     border-right: 5px solid #ddd;
     text-align: left;
     margin-top: 20px;
@@ -42,7 +44,7 @@ td {
 .ihbiy {
     width: 100%;
     height: 100%;
-    background: #fff;
+    background: #e08f51;
     border-left: 5px solid #ddd;
     text-align: left;
     vertical-align: top;
@@ -56,36 +58,39 @@ h2 {
     padding-bottom: 5px;
     margin-top: 0;
     font-size: 22px;
+    font-family: 'Georgia', serif;
 }
 
 h3 {
     color: #555;
     margin-top: 0;
     font-size: 18px;
+    font-family: 'Georgia', serif;
 }
 
 p {
     color: #666;
     line-height: 1.6;
+    font-family: 'Verdana', sans-serif;
 }
-
 
 img {
     max-width: 100%;
     height: auto;
+    width: auto;
     display: block;
-    margin-left:40px;
-    border-radius: 50%;
+    border-radius: 5px;
     text-align: center;
     border: 3px solid #ddd;
+    margin: 10px 0;
 }
-
 
 .skills {
     width: 100%;
     border: 1px solid #ddd;
     text-align: left;
     margin-top: 10px;
+    border-radius: 5px;
 }
 
 .skills td {
@@ -93,9 +98,14 @@ img {
     text-align: left;
     background: #f9f9f9;
     border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
-@media (max-width: 1024px) {
+.skills p {
+    margin: 5px 0;
+}
+
+@media (max-width: 800px) {
     .container {
         padding: 15px;
     }
@@ -109,7 +119,6 @@ img {
         padding: 15px;
     }
 }
-
 
 @media (max-width: 768px) {
     body {
@@ -140,4 +149,166 @@ img {
     p {
         font-size: 14px;
     }
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 16px;
+}
+
+footer copyright {
+    font-size: 14px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.ungu {
+    background-color: #ff801e;
+    color: #ff801e;
+    height: 10px;
+    width: 80%;
+    float: left;
+}
+
+.ungu2 {
+    background-color: #020081;
+    color: #020081;
+    height: 10px;
+    width: 20%;
+    float: left;
+}
+
+.school1, .school2, .chess, .bb, .fb {
+    max-width: 100%;
+    height: 50px;
+    width: 50px;
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+    border: 3px solid #ddd;
+    margin-left: 10px;
+}
+
+.ungu3 {
+    background-color: #ff801e;
+    color: #ff801e;
+    height: 10px;
+    width: 60%;
+    float: left;
+}
+
+.ungu4 {
+    background-color: #020081;
+    color: #020081;
+    height: 10px;
+    width: 40%;
+    float: left;
+}
+
+.ungu5 {
+    background-color: #ff801e;
+    color: #ff801e;
+    height: 10px;
+    width: 70%;
+    float: left;
+}
+
+.ungu6 {
+    background-color: #020081;
+    color: #020081;
+    height: 10px;
+    width: 30%;
+    float: left;
+}
+
+.ungu7 {
+    background-color: #ff801e;
+    color: #ff801e;
+    height: 10px;
+    width: 80%;
+    float: left;
+}
+
+.ungu8 {
+    background-color: #020081;
+    color: #020081;
+    height: 10px;
+    width: 20%;
+    float: left;
+}
+
+.ungu9 {
+    background-color: #ff801e;
+    color: #ff801e;
+    height: 10px;
+    width: 66%;
+    float: left;
+}
+
+.ungu10 {
+    background-color: #020081;
+    color: #020081;
+    height: 10px;
+    width: 34%;
+    float: left;
+}
+
+.ungu11 {
+    background-color: #ff801e;
+    color: #ff801e;
+    height: 10px;
+    width: 56%;
+    float: left;
+}
+
+.ungu12 {
+    background-color: #020081;
+    color: #020081;
+    height: 10px;
+    width: 44%;
+    float: left;
+}
+
+.ungu13 {
+    background-color: #ff801e;
+    color: #ff801e;
+    height: 10px;
+    width: 75%;
+    float: left;
+}
+
+.ungu14 {
+    background-color: #020081;
+    color: #020081;
+    height: 10px;
+    width: 25%;
+    float: left;
+}
+
+.ungu15 {
+    background-color: #ff801e;
+    color: #ff801e;
+    height: 10px;
+    width: 85%;
+    float: left;
+}
+
+.ungu16 {
+    background-color: #020081;
+    color: #020081;
+    height: 10px;
+    width: 15%;
+    float: left;
 }
